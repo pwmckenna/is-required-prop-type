@@ -1,0 +1,29 @@
+{
+  "name": "is-required-prop-type",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwmckenna/is-required-prop-type.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwmckenna/is-required-prop-type/issues"
+  },
+  "homepage": "https://github.com/pwmckenna/is-required-prop-type#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-pwmckenna": "^1.0.2"
+  },
+  "dependencies": {
+    "prop-type-error": "^1.0.0"
+  }
+}
